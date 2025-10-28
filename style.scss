@@ -18,6 +18,30 @@ html{
 section.view1{
     max-width: 1800px;
 }
+
+section.view2{
+    max-width: 1800px;
+}
+
+section.view3{
+    max-width: 1800px;
+}
+
+section.view4{
+    max-width: 1800px;
+}
+section.view8{
+    max-width: 1800px;
+}
+section.view5{
+    max-width: 1800px;
+}
+section.view6{
+    max-width: 1800px;
+}
+section.view7{
+    max-width: 1800px;
+}
 main{
     width:  100%;
     display: flex;
@@ -42,29 +66,31 @@ main{
         }
 
         .bottom {
-            background-color: #212121;
+            background-color:#212121;
             display : flex;
             padding : 1.5rem;
             border-radius: 10px;
             flex-direction: column;
             gap: 3rem;
+            
 
             .text{
                 display: flex;
                 flex-direction: column;
-                gap: 0.7rem;
+                gap: 0.9rem;
 
                 h1{
                     font-weight: 400;
-                    font-size:2.2rem;
+                    font-size:3rem;
                     text-transform: uppercase;
                 }
 
                 p{
                     font-weight: 300;
                     opacity: 0.6;
-                    font-size: 1.2rem;
+                    font-size: 1.5rem;
                     line-height: 1.5;
+                    width: 34ch;
                 }
 
                 button{
@@ -73,6 +99,12 @@ main{
                     outline: none;
                     padding: 0.7rem 1rem;
                     border-radius: 0.5rem;
+                    background-color: transparent;
+                    color: white;
+                    border: 1px solid white;
+                }
+                .bottom>p{
+                    font-size: 1rem;
                 }
             }
         }
@@ -163,7 +195,341 @@ main{
             text-transform: uppercase;
         }
     }
+    section.view4{
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+     gap: 1rem;
 
+      .top{
+        width: 100%;
+        
+
+        img{
+            width: 100%;
+            border-radius: 0.7rem;
+        }
+      }
+
+      .bottom{
+        background-color: #212121;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        border-radius: 0.7rem;
+        gap: 3rem;
+
+        .textt{
+            display : flex;
+            flex-direction: column;
+            gap : 0.7rem;
+        }
+        h1{
+            font-weight: 400;;
+        }
+
+        p{
+            font-weight: 300;
+           
+            font-size: 1.2rem;
+            line-height: 1.5;
+            
+        }
+
+        .para{
+            p{
+                opacity: 0.6;
+            }
+        }
+      }
+
+      .bottom>p{
+        text-transform: uppercase;
+      }
+    }
+
+    section.view8{
+
+        .mannu{
+        display : flex;
+        justify-content: space-between;
+        gap: 14rem;
+        padding: 1rem 2rem;
+
+        h2{
+            font-size: 2rem;
+            font-weight: 430;
+        }
+
+        button{
+            font-size: 1.2rem;
+            border: 1px solid white;
+            border-radius: 1rem;
+            padding: 1rem 1rem;
+            background-color: transparent;
+            color : white;
+        }
+        
+        }
+    }
+
+    section.view5{
+        width : 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        gap: 1rem;
+        .card{
+            background-image: url(/i4.webp);
+            width: 100%;
+            background-size: cover;
+            border-radius: 0.7rem;
+            aspect-ratio: 1/1;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            
+        .top{
+            display: flex;
+            gap: 1rem;
+            justify-content: flex-end;
+            
+        }
+
+        .icon{
+            width: fit-content;
+            border-radius: 50%;
+            background-color: #86858556;
+            backdrop-filter: blur(5px);
+            border: 1px solid white;
+            
+            padding: 0.5rem;
+        }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+
+            p{
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                font-weight: 500;
+            }
+        }
+
+        .icon,.bottom{
+            background-color: #4a4a4a56;
+            backdrop-filter: blur(5px);
+            border: 1px solid white;
+            border-radius: 0.7rem;
+            padding: 0.5rem;
+        }
+
+    }
+        .card1{
+            background-image: url(/i5.webp);
+            width: 100%;
+            background-size: cover;
+            border-radius: 0.7rem;
+            aspect-ratio: 1/1;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            
+        .top{
+            display: flex;
+            gap: 1rem;
+            justify-content: flex-end;
+            
+        }
+
+        .icon{
+            width: fit-content;
+            border-radius: 50%;
+            background-color: #86858556;
+            backdrop-filter: blur(5px);
+            border: 1px solid white;
+            
+            padding: 0.5rem;
+        }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+
+            p{
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                font-weight: 500;
+            }
+        }
+
+        .icon,.bottom{
+            background-color: #4a4a4a56;
+            backdrop-filter: blur(5px);
+            border: 1px solid white;
+            border-radius: 0.7rem;
+            padding: 0.5rem;
+        }
+
+    }
+        .card2{
+            background-image: url(/i6.webp);
+            width: 100%;
+            background-size: cover;
+            border-radius: 0.7rem;
+            aspect-ratio: 1/1;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            
+        .top{
+            display: flex;
+            gap: 1rem;
+            justify-content: flex-end;
+            
+        }
+
+        .icon{
+            width: fit-content;
+            border-radius: 50%;
+            background-color: #86858556;
+            backdrop-filter: blur(5px);
+            border: 1px solid white;
+            
+            padding: 0.5rem;
+        }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+
+            p{
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                font-weight: 500;
+            }
+        }
+
+        .icon,.bottom{
+            background-color: #4a4a4a56;
+            backdrop-filter: blur(5px);
+            border: 1px solid white;
+            border-radius: 0.7rem;
+            padding: 0.5rem;
+        }
+
+    }
+    }
+
+    section.view6{
+         width:  100%;
+    display: flex;
+    flex-direction: column;
+    padding : 1.5rem;
+    gap: 1rem;
+
+        .top{
+            width: 100%;
+        
+            img{
+                width : 100%;
+                border-radius: 10px;
+
+            }
+        }
+
+        .bottom {
+            background-color: #212121;
+            display : flex;
+            padding : 1.5rem;
+            border-radius: 10px;
+            flex-direction: column;
+            gap: 3rem;
+            
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                gap: 0.9rem;
+
+                h1{
+                    font-weight: 400;
+                    font-size:3rem;
+                    text-transform: uppercase;
+                }
+
+                
+
+                button{
+                    width : fit-content;
+                    border: none;
+                    outline: none;
+                    padding: 0.7rem 1rem;
+                    border-radius: 0.5rem;
+                    background-color: transparent;
+                    color: white;
+                    border: 1px solid white;
+                }
+                .bottom>p{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    section.view7{
+
+        width: 100%;
+        padding : 1.5rem;
+       
+        
+            .manan{
+                background-color: #CEBD63;
+                gap: 2.5rem;
+                padding: 2.4rem;
+             border-radius: 0.8rem;
+            
+
+             p{
+                color : black;
+                font-size: 1.4rem;
+                font-weight: 500;
+                text-transform: uppercase;
+
+             }
+                .sahni{
+                    gap: 4rem;
+                   
+                    
+
+                    h2{
+                        color : black;
+                        font-size: 3rem;
+                        width : 12ch;
+                        font-weight: 510;
+                    }
+
+                    button{
+
+                        color : white;
+                        background-color: #1E1E1E;
+                        border: none;
+                        padding: 1.4rem 4rem;
+                        text-align: center;
+                        border-radius: 1rem;
+                        margin-left : 2.5rem;
+                        margin-top: 2rem;
+                        font-size: 2rem;
+                        text-transform: uppercase;
+                    }
+                }
+        }
+    }
+    
 }
 
 @media (min-width : 600px){
@@ -188,25 +554,32 @@ main{
             width: 50%;
             flex: 0 0 50%;
             max-width: 50%;
+            padding-left: 2rem;
+            
             
             p{
-                font-size: 0.7rem;
+                font-size: 0.8rem;
+                margin-left: 2.5rem;
             }
+            
 
 
 
             .text{
 
-                gap: 1rem;
+                gap: 2.5rem;
+                padding-left: 2rem;
+                
                 h1{
-                    font-size: 1rem;
+                    font-size: 1.5rem;
                     width: 30ch;
 
                 }
                 p{
                     width: 80%;
-                    font-size: 0.8rem;
+                    font-size: 1rem;
                     width: 46ch;
+                    margin-left: 0.1rem;
                 }
                 button {
                     
@@ -220,6 +593,31 @@ main{
      section.view2 {
         flex-direction: row;
         padding: 0.8rem 1.2rem;
+
+        .top{
+            .element{
+                small{
+                    font-weight: 500;
+                }
+                h2{
+                    font-weight: 400;
+                }
+            }
+
+            
+        }
+        .bottom{
+            .element{
+                small{
+                    font-weight: 500;
+                }
+                h2{
+                    font-weight: 400;
+                }
+            }
+
+            
+        }
      }
 
      section.view3{
@@ -234,16 +632,157 @@ main{
             width : 50%;
             justify-content: space-between;
             padding: 3rem;
+            gap: 2rem;
+            .text{
+                h1{
 
+                    font-size: 1.5rem;
+                }
+            }
             .paragraphs{
                 display : flex;
-                gap: 2rem;
+                gap: 2.2rem;
 
+                p{
+                    font-size: 0.7rem;
+                }
+            }
+        }
+
+        .bottom>p{
+            font-size: 1.2rem;
+        }
+     }
+
+     section.view4{
+        flex-direction: row;
+        gap: 1rem;
+
+        .top,
+        .bottom{
+            width: 50%;
+
+        }
+
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+            .textt{
+                gap: 3rem;
+                
+                h1{
+                    font-size: 1.5rem; 
+                    font-weight: 400;
+                    text-transform: uppercase;
+
+                }
+            }
+
+            .para{
+
+                display: flex;
+                gap: 2rem;
                 p{
                     font-size: 0.8rem;
                 }
             }
         }
+
      }
+
+     section.view5{
+        flex-direction: row;
+        padding : 1rem 4rem;
+     }
+
+     section.view8{
+        display: flex;
+    flex-direction: row;    
+   .mannu{
+    gap: 36rem;
+   }
+
+
+    
+ }
+
+    section.view6{
+        flex-direction: row;
+        padding: 0.5rem 1.5rem;
+        align-items: strech;
+
+        .top,.bottom{
+
+            width : 50%;
+
+        }
+
+        .bottom{
+            .text{
+
+                gap: 5rem;
+                h1{
+                    font-size: 1.5rem;
+                }
+            }
+        }
     }
+    section.view7{
+        display : flex;
+                width : 100%;
+                padding : 1.5rem;
+        justify-content: center;
+        align-items: end;
+
+        .manan {
+            display : flex;
+            width : 100%;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2.5rem;
+           padding: 2.4rem;
+            border-radius: 0.8rem;
+            background-color: #CEBD63;
+
+            p{
+                 color: black;
+              font-size: 1.4rem;
+                font-weight: 500;
+                text-transform: uppercase;
+                margin: 0;
+            }
+        }
+
+        .sahni {
+            display: flex;
+                align-items: center;
+                gap: 2rem;
+
+                .sahni h2{
+                color: black;
+                font-weight: 510;
+                width: 12ch;
+                font-size: clamp(1.8rem, 4.5vw, 4rem);
+                margin: 0;
+            }
+            button{
+
+                font-size: 1rem;
+                padding: 0.7rem 2rem;
+            }
+
+            .sahni button{
+               color: white;
+               background-color: #1E1E1E;
+               border: none;
+                padding: clamp(0.8rem, 1.6vw, 1.4rem) clamp(1.2rem, 3vw, 4.5rem);
+                border-radius: 1rem;
+                font-size: clamp(1rem, 2.2vw, 2rem);
+                text-transform: uppercase;
+            }
+
+        }
+    }
+    
+}
 }
