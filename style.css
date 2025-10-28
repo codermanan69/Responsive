@@ -246,7 +246,7 @@ main section.view5 {
   gap: 1rem;
 }
 main section.view5 .card {
-  background-image: url(/i4.webp);
+  background-image: url(/assets/i4.webp);
   width: 100%;
   background-size: cover;
   border-radius: 0.7rem;
@@ -289,7 +289,7 @@ main section.view5 .card .icon, main section.view5 .card .bottom {
   padding: 0.5rem;
 }
 main section.view5 .card1 {
-  background-image: url(/i5.webp);
+  background-image: url(/assets/i5.webp);
   width: 100%;
   background-size: cover;
   border-radius: 0.7rem;
@@ -332,7 +332,7 @@ main section.view5 .card1 .icon, main section.view5 .card1 .bottom {
   padding: 0.5rem;
 }
 main section.view5 .card2 {
-  background-image: url(/i6.webp);
+  background-image: url(/assets/i6.webp);
   width: 100%;
   background-size: cover;
   border-radius: 0.7rem;
